@@ -10,7 +10,6 @@
 		04FAAE28F45E35FF0EFDC056 /* Pods_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2272CE5115B58F27E20C277 /* Pods_WeatherAppTests.framework */; };
 		11209F2E945396820F382761 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21092863F12C50EBAAAA1F6D /* Pods.framework */; };
 		D40451CC1C30763E00E28BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451CB1C30763E00E28BC4 /* AppDelegate.swift */; };
-		D40451CE1C30763E00E28BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451CD1C30763E00E28BC4 /* ViewController.swift */; };
 		D40451D11C30763E00E28BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40451CF1C30763E00E28BC4 /* Main.storyboard */; };
 		D40451D31C30763E00E28BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40451D21C30763E00E28BC4 /* Assets.xcassets */; };
 		D40451D61C30763E00E28BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40451D41C30763E00E28BC4 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,8 @@
 		D40451F61C30771F00E28BC4 /* WeatherFetcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451F51C30771F00E28BC4 /* WeatherFetcherSpec.swift */; settings = {ASSET_TAGS = (); }; };
 		D40451F91C307FCD00E28BC4 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451F81C307FCD00E28BC4 /* Networking.swift */; settings = {ASSET_TAGS = (); }; };
 		D40451FB1C307FFA00E28BC4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451FA1C307FFA00E28BC4 /* Network.swift */; settings = {ASSET_TAGS = (); }; };
+		D40451FE1C30856D00E28BC4 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451FD1C30856D00E28BC4 /* WeatherTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D40452021C3086A900E28BC4 /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40452011C3086A900E28BC4 /* SwinjectStoryboard+Setup.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		D1826D06946AEFBDAE19EE7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D40451C81C30763E00E28BC4 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40451CB1C30763E00E28BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D40451CD1C30763E00E28BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D40451D01C30763E00E28BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D40451D21C30763E00E28BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40451D51C30763E00E28BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		D40451F51C30771F00E28BC4 /* WeatherFetcherSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetcherSpec.swift; sourceTree = "<group>"; };
 		D40451F81C307FCD00E28BC4 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D40451FA1C307FFA00E28BC4 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D40451FD1C30856D00E28BC4 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		D40452011C3086A900E28BC4 /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
 		EE4F04753F3596159E353B49 /* Pods-WeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherAppTests/Pods-WeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,9 +123,10 @@
 		D40451CA1C30763E00E28BC4 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				D40451FC1C30848700E28BC4 /* Controller */,
 				D40451EB1C30769D00E28BC4 /* Model */,
 				D40451CB1C30763E00E28BC4 /* AppDelegate.swift */,
-				D40451CD1C30763E00E28BC4 /* ViewController.swift */,
+				D40452011C3086A900E28BC4 /* SwinjectStoryboard+Setup.swift */,
 				D40451CF1C30763E00E28BC4 /* Main.storyboard */,
 				D40451D21C30763E00E28BC4 /* Assets.xcassets */,
 				D40451D41C30763E00E28BC4 /* LaunchScreen.storyboard */,
@@ -160,6 +163,14 @@
 				D40451F51C30771F00E28BC4 /* WeatherFetcherSpec.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		D40451FC1C30848700E28BC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D40451FD1C30856D00E28BC4 /* WeatherTableViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,10 +374,11 @@
 			files = (
 				D40451F11C3076AE00E28BC4 /* OpenWeatherMap.swift in Sources */,
 				D40451F01C3076AE00E28BC4 /* WeatherFetcher.swift in Sources */,
-				D40451CE1C30763E00E28BC4 /* ViewController.swift in Sources */,
 				D40451F91C307FCD00E28BC4 /* Networking.swift in Sources */,
+				D40451FE1C30856D00E28BC4 /* WeatherTableViewController.swift in Sources */,
 				D40451CC1C30763E00E28BC4 /* AppDelegate.swift in Sources */,
 				D40451FB1C307FFA00E28BC4 /* Network.swift in Sources */,
+				D40452021C3086A900E28BC4 /* SwinjectStoryboard+Setup.swift in Sources */,
 				D40451EF1C3076AE00E28BC4 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
