@@ -19,6 +19,8 @@
 		D40451F01C3076AE00E28BC4 /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451ED1C3076AE00E28BC4 /* WeatherFetcher.swift */; settings = {ASSET_TAGS = (); }; };
 		D40451F11C3076AE00E28BC4 /* OpenWeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451EE1C3076AE00E28BC4 /* OpenWeatherMap.swift */; settings = {ASSET_TAGS = (); }; };
 		D40451F61C30771F00E28BC4 /* WeatherFetcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451F51C30771F00E28BC4 /* WeatherFetcherSpec.swift */; settings = {ASSET_TAGS = (); }; };
+		D40451F91C307FCD00E28BC4 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451F81C307FCD00E28BC4 /* Networking.swift */; settings = {ASSET_TAGS = (); }; };
+		D40451FB1C307FFA00E28BC4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40451FA1C307FFA00E28BC4 /* Network.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D40451ED1C3076AE00E28BC4 /* WeatherFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
 		D40451EE1C3076AE00E28BC4 /* OpenWeatherMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherMap.swift; sourceTree = "<group>"; };
 		D40451F51C30771F00E28BC4 /* WeatherFetcherSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetcherSpec.swift; sourceTree = "<group>"; };
+		D40451F81C307FCD00E28BC4 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D40451FA1C307FFA00E28BC4 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		EE4F04753F3596159E353B49 /* Pods-WeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherAppTests/Pods-WeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +148,8 @@
 				D40451EC1C3076AE00E28BC4 /* City.swift */,
 				D40451ED1C3076AE00E28BC4 /* WeatherFetcher.swift */,
 				D40451EE1C3076AE00E28BC4 /* OpenWeatherMap.swift */,
+				D40451F81C307FCD00E28BC4 /* Networking.swift */,
+				D40451FA1C307FFA00E28BC4 /* Network.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -358,7 +364,9 @@
 				D40451F11C3076AE00E28BC4 /* OpenWeatherMap.swift in Sources */,
 				D40451F01C3076AE00E28BC4 /* WeatherFetcher.swift in Sources */,
 				D40451CE1C30763E00E28BC4 /* ViewController.swift in Sources */,
+				D40451F91C307FCD00E28BC4 /* Networking.swift in Sources */,
 				D40451CC1C30763E00E28BC4 /* AppDelegate.swift in Sources */,
+				D40451FB1C307FFA00E28BC4 /* Network.swift in Sources */,
 				D40451EF1C3076AE00E28BC4 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
